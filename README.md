@@ -127,9 +127,9 @@ touch views/_footer.erb
     <meta  http-equiv="X-UA-Compatible"  content="ie=edge">
   </head>
   <body>
-    <div  class="navbar"  style="background: blue">Navbar</div>
-    <%= yield %>
-    <div  class="footer"  style="background: red">Footer</div>
+    <%=  erb(:_navbar) %>
+    <%=  yield  %>
+    <%=  erb(:_footer) %>
   </body>
 </html>
 
@@ -197,13 +197,17 @@ end
   <script  src="assets/index.js"></script>
 </html>
 ```
+```css
+/* assets/stylesheets/style.css */
+h2 {
+    color: grey;
+}
+```
 ```js
 // assets/javascripts/index.js
 console.log("JS from assets/javascripts/index.js");
 ```
-
-
-Go check http://localhost:9292/. You will find all the assets are connected!
+Check http://localhost:9292/. You will find all the assets are connected!
 
 ### Database congig and Rakefile
 
