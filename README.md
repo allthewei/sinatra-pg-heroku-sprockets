@@ -209,7 +209,7 @@ console.log("JS from assets/javascripts/index.js");
 ```
 Check http://localhost:9292/. You will find all the assets are connected!
 
-### Database congig and Rakefile
+### Database config and Rakefile
 
 We need some config to deal with database for development and production stage
 
