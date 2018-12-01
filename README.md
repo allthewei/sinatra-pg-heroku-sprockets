@@ -197,6 +197,12 @@ end
   <script  src="assets/index.js"></script>
 </html>
 ```
+```js
+// assets/javascripts/index.js
+console.log("JS from assets/javascripts/index.js");
+```
+
+
 Go check http://localhost:9292/. You will find all the assets are connected!
 
 ### Database congig and Rakefile
